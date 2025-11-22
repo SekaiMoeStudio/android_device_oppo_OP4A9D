@@ -1,11 +1,12 @@
 # Bluetooth
-bluetooth.device.default_name=OPPO Reno6 Pro+ 5G
+bluetooth.device.default_name=OPPO Reno3 Pro 5G
 
 # Fingerprint
 persist.vendor.fp.template_updateflag=V1
 
-# USB
-vendor.usb.product_string=OPPO Reno6 Pro+ 5G
+# Graphics
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
 
-# Verity
-ro.apk_verity.mode=2
+# USB
+vendor.usb.product_string=OPPO Reno3 Pro 5G

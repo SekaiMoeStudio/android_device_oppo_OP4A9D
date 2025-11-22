@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_OP4EC1.mk
+    $(LOCAL_DIR)/lineage_OP4E9D.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_OP4E9D-user \
+    lineage_OP4E9D-userdebug \
+    lineage_OP4E9D-eng
