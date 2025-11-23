@@ -17,7 +17,7 @@
 # Include the common OEM chipset BoardConfig.
 include device/oppo/sm7250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oppo/OP4E9D
+DEVICE_PATH := device/oppo/OP4A9D
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -26,7 +26,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 KERNEL_PATH += $(DEVICE_PATH)-kernel
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := PCRM00,OP4E9D
+TARGET_OTA_ASSERT_DEVICE := PCRM00,OP4A9D
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
