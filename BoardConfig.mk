@@ -19,14 +19,14 @@ include device/oppo/sm7250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oppo/OP4E9D
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := OP4E9D
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := PCRM00,OP4E9D
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
