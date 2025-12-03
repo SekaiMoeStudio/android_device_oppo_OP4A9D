@@ -18,7 +18,7 @@
 $(call inherit-product, device/oppo/sm7250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/oppo/OP4A9D/OP4EAD-vendor.mk)
+#$(call inherit-product, vendor/oppo/OP4A9D/OP4EAD-vendor.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
